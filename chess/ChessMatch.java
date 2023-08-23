@@ -23,7 +23,7 @@ public class ChessMatch {
     	 return mat;
      }
      private void initialSetup() {
-    	 board.PlacePiece(new Rook(board,Color.WHITE),new Position(1, 2));
-    	 board.PlacePiece(new King(board,Color.BLACK),new Position(0, 4));
+    	 board.placePiece(new Rook(board,Color.WHITE),new Position(1, 2));
+    	 board.placePiece(new King(board,Color.BLACK),new Position(0, 4));
      }
 }
