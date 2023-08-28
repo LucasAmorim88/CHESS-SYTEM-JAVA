@@ -1,7 +1,5 @@
 package chess;
 
-import boardgame.BoardException;
-
 
 import boardgame.BoardException;
 
